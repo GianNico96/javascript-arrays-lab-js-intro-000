@@ -32,5 +32,5 @@ function appendKitten(name)
 
 function prependKitten(name)
 {
-    let evenmorekittens = 
+    let evenmorekittens =
 }
