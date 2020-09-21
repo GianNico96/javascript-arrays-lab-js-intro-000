@@ -35,3 +35,9 @@ function prependKitten(name)
     let evenmorekittens = [name, ...kittens];
     return evenmorekittens;
 }
+
+function removeLastKitten()
+{
+  let removekittens = kittens.slice(0, kittens.length -1)
+  return removekittens
+}
